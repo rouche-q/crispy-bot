@@ -1,0 +1,27 @@
+{
+  "name": "crispy-bot",
+  "version": "0.0.1",
+  "description": "crypto trading bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rouche-q/crispy-bot.git"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "rouche-q",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rouche-q/crispy-bot/issues"
+  },
+  "homepage": "https://github.com/rouche-q/crispy-bot#readme",
+  "dependencies": {
+    "ccxt": "^1.75.85",
+    "dotenv": "^16.0.0"
+  }
+}

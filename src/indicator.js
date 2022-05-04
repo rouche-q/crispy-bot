@@ -10,5 +10,6 @@ export const getSma = async (exchange, pair, period) => {
         candle[0] = new Date(candle[0]).toString()
         return candle
     })
+    
     console.table(candles)
 }
